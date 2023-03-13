@@ -1,4 +1,5 @@
 def initialise_board():
+    # test
     board_list = ['.', '.', '.', '.', '.', '.', '.', '.', '.']
     return board_list
 
