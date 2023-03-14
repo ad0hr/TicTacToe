@@ -17,7 +17,7 @@ def test_get_current_turn():
 def test_get_current_player():
     board = ['X', '.', '.', '.', 'X', 'O', '.', '.', 'O']
     current_player = get_current_player(board)
-    assert (current_player == 'X')
+    assert (current_player == 'Xgit p')
 
 
 def test_play_turn():
