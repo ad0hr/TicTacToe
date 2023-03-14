@@ -37,5 +37,6 @@ def test_check_draw():
 
 def test_check_win():
     board = ['X', '.', 'O', '.', 'X', 'O', '.', '.', 'X']
+    # checks for player X win
     is_win, player_win = check_win(board)
     assert (player == 'X')
